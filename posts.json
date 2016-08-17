@@ -1,0 +1,18 @@
+{ "posts": [
+  {
+    "title": "Fun on the fire drill",
+    "date": "2015-03-25",
+    "body": "To retrieve the API key and URL for your own Firebase project, from the Firebase console for your project, click the Add Firebase to your web app button. A modal will open that includes your apiKey, authDomain, databaseURL, and storageBucket. Copy these into the appropriate spots in your environment.js file, as outlined above."
+  },
+  {
+    "title": "Sight Seeing on Mount Hood",
+    "date": "2015-03-26",
+    "body": "To retrieve the API key and URL for your own Firebase project, from the Firebase console for your project, click the Add Firebase to your web app button. A modal will open that includes your apiKey, authDomain, databaseURL, and storageBucket. Copy these into the appropriate spots in your environment.js file, as outlined above."
+  },
+  {
+    "title": "Sight Seeing at the beach",
+    "date": "2015-03-27",
+    "body": "To retrieve the API key and URL for your own Firebase project, from the Firebase console for your project, click the Add Firebase to your web app button. A modal will open that includes your apiKey, authDomain, databaseURL, and storageBucket. Copy these into the appropriate spots in your environment.js file, as outlined above."
+  }
+  ]
+}
