@@ -18,7 +18,8 @@ module.exports = function(environment) {
       authDomain: "blog-app-aacba.firebaseapp.com",
       databaseURL: "https://blog-app-aacba.firebaseio.com",
       storageBucket: "blog-app-aacba.appspot.com",
-    },
+      
+        },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
