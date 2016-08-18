@@ -6,6 +6,6 @@
 <h1>Comments</h1>
 {{#each model.comments as |comment|}}
   {{comment-tile comment=comment}}
-  {{comment-edit comment=comment update1="update2"}}
+  {{comment-edit comment=comment update1="update2" delete1="delete2"}}
 {{/each}}
 {{comment-new post=model save1="save2"}}

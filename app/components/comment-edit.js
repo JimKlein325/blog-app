@@ -3,6 +3,9 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   isInEditMode: false,
   actions: {
+    delete1() {
+      this.sendAction('delete1', this.get('comment'));
+    },
       updateCommentForm() {
         this.set('isInEditMode', true);
       },
@@ -15,5 +18,7 @@ export default Ember.Component.extend({
         this.set('isInEditMode', false);
         this.sendAction('update1', comment, params);
       }
-    }
+    },
+
+
 });

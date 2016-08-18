@@ -22,5 +22,10 @@
   </form>
 </div>
 {{else}}
+  <div class="update">
     <button {{action 'updateCommentForm'}}>Edit Comment</button>
+  </div>
 {{/if}}
+<div class="delete">
+  <button {{action 'delete1' delete1="delete2"}}>Delete Comment</button>
+</div>

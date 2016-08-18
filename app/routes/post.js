@@ -26,5 +26,16 @@ export default Ember.Route.extend({
       comment.save();
       this.transitionTo('post');
     },
+    delete2(comment) {
+      comment.destroyRecord();
+      debugger;
+      var comment_id = comment.id.toString();
+      debugger;
+      var commentToDelete = this.store.findRecord(comment_id);
+      commentToDelete.destroyRecord();
+      this.transitionTo('post');
+      debugger;
+      //comment.post.get('comments').deleteObject(params.comment);
+    }
   }
 });
