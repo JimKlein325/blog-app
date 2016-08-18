@@ -3,4 +3,9 @@
 <p>
   {{model.body}}
 </p>
-{{comment-new post=model}}
+<h1>Comments</h1>
+{{#each model.comments as |comment|}}
+  {{comment-tile comment=comment}}
+  {{comment-edit comment=comment update1="update2"}}
+{{/each}}
+{{comment-new post=model save1="save2"}}

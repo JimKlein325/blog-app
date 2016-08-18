@@ -12,7 +12,7 @@ export default Ember.Component.extend({
       this.set('name', "");
       this.set('date', "");
       this.set('body', "");
-      this.sendAction('save2', params);
+      this.sendAction('save1', params);
     }
   }
 });
